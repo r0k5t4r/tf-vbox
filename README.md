@@ -14,15 +14,15 @@ In order to run this:
 ```ruby
  $env:PATH = $env:PATH + ";C:\Program Files\Oracle\VirtualBox"
 ```
-3. run:
+4. run:
 ```ruby
  terraform init
 ```
-4. run: 
+5. run: 
 ```ruby
 terraform plan
 ```
-5. run:
+6. run:
 ```ruby
 terraform apply
 ```
