@@ -10,6 +10,10 @@ In order to use this code you must have:
 In order to run this:
 1. clone the git repo
 2. cd into the cloned directory
+3. We need to adjust PATH variable in PowerShell for vboxmanage binary
+```ruby
+ $env:PATH = $env:PATH + ";C:\Program Files\Oracle\VirtualBox"
+```
 3. run:
 ```ruby
  terraform init
